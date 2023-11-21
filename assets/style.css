@@ -40,3 +40,130 @@
      border: 5px solid gray;
      box-shadow: 5px 10px #888888;
  }
+
+.checbox {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    margin-right: 10px;
+}   
+
+#javascript-section input[type="checkbox"] {
+    height: 30px;
+    width: 30px;
+    background-color: #842222;
+}
+
+#javascript-section input[type="checkbox"]:checked {
+    background-color: #11d667;
+}
+
+#javascript-section input[type="checkbox"]:checked + label {
+    text-decoration: line-through;
+    color: #11d667;
+}
+
+#javascript-section input[type="checkbox"] + label {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    top: -8px;  
+}   
+
+#html-section input[type="checkbox"] {
+    height: 30px;
+    width: 30px;
+    background-color: #842222;
+}
+
+#html-section input[type="checkbox"]:checked {
+    background-color: #11d667;
+}
+
+#html-section input[type="checkbox"]:checked+label {
+    text-decoration: line-through;
+    color: #11d667;
+}
+
+#html-section input[type="checkbox"]+label {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    top: -8px;
+}
+
+#css-section input[type="checkbox"] {
+    height: 30px;
+    width: 30px;
+    background-color: #842222;
+}
+
+#css-section input[type="checkbox"]:checked {
+    background-color: #11d667;
+}
+
+#css-section input[type="checkbox"]:checked+label {
+    text-decoration: line-through;
+    color: #11d667;
+}
+
+#css-section input[type="checkbox"]+label {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    top: -8px;
+}
+
+#git-section input[type="checkbox"] {
+    height: 30px;
+    width: 30px;
+    background-color: #842222;
+}
+
+#git-section input[type="checkbox"]:checked {
+    background-color: #11d667;
+}
+
+#git-section input[type="checkbox"]:checked+label {
+    text-decoration: line-through;
+    color: #11d667;
+}
+
+#git-section input[type="checkbox"]+label {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    top: -8px;
+}
+
+.submit {
+  height: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+}
+
+.submit button {
+  background-color: rgb(215, 136, 90);
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer; 
+  font-size: 16px;
+}
+
+.submit button:hover {
+  background-color: rgb(107, 220, 75); 
+}
