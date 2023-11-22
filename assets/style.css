@@ -185,3 +185,8 @@ font-style: italic;
 color: rgb(255, 0, 0);
 font-size: 14px;
 }
+
+p.foot {
+    font-style: italic;
+    font-size: 14px;
+}
