@@ -154,7 +154,7 @@
 }
 
 .submit button {
-  background-color: rgb(215, 136, 90);
+  background-color: rgb(238, 18, 18);
   color: rgb(255, 255, 255);
   font-weight: bold;
   padding: 12px 20px;
@@ -166,4 +166,10 @@
 
 .submit button:hover {
   background-color: rgb(107, 220, 75); 
+}
+
+p.special {
+font-style: italic;
+color: rgb(255, 0, 0);
+font-size: 14px;
 }
